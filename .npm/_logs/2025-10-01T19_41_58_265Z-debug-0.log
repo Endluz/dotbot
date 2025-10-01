@@ -1,0 +1,218 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.1
+2 info using node@v22.20.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install node-fetch openai
+7 verbose argv "install" "node-fetch" "openai"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2025-10-01T19_41_58_265Z-
+9 verbose logfile /home/container/.npm/_logs/2025-10-01T19_41_58_265Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:614203392 maxSize:153550848 maxEntrySize:76775424
+13 silly idealTree buildDeps
+14 silly fetch manifest node-fetch@^3.3.2
+15 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/node-fetch 465ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+18 silly fetch manifest openai@^5.23.2
+19 silly packumentCache full:https://registry.npmjs.org/openai cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/openai 151ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/openai set size:4310971 disposed:false
+22 silly fetch manifest ws@^8.18.0
+23 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/ws 163ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+26 silly fetch manifest bufferutil@^4.0.1
+27 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/bufferutil 138ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+30 silly fetch manifest utf-8-validate@>=5.0.2
+31 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 151ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+34 silly fetch manifest zod@^3.23.8
+35 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/zod 152ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/zod set size:3163078 disposed:false
+38 silly placeDep ROOT node-fetch@3.3.2 REPLACE for: dot-bot@1.0.0 want: ^3.3.2
+39 silly placeDep ROOT openai@5.23.2 REPLACE for: dot-bot@1.0.0 want: ^5.23.2
+40 silly reify moves {}
+41 silly audit bulk request {
+41 silly audit   '@discordjs/builders': [ '1.11.2' ],
+41 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+41 silly audit   '@discordjs/formatters': [ '0.6.1' ],
+41 silly audit   '@discordjs/rest': [ '2.5.1' ],
+41 silly audit   '@discordjs/util': [ '1.1.1' ],
+41 silly audit   '@discordjs/ws': [ '1.2.3' ],
+41 silly audit   '@gar/promisify': [ '1.1.3' ],
+41 silly audit   '@npmcli/fs': [ '1.1.1' ],
+41 silly audit   '@npmcli/move-file': [ '1.1.2' ],
+41 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+41 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+41 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+41 silly audit   '@tootallnate/once': [ '1.1.2' ],
+41 silly audit   '@types/debug': [ '4.1.12' ],
+41 silly audit   '@types/ms': [ '2.1.0' ],
+41 silly audit   '@types/node': [ '24.2.1' ],
+41 silly audit   '@types/validator': [ '13.15.2' ],
+41 silly audit   '@types/ws': [ '8.18.1' ],
+41 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+41 silly audit   abbrev: [ '1.1.1' ],
+41 silly audit   'agent-base': [ '6.0.2' ],
+41 silly audit   agentkeepalive: [ '4.6.0' ],
+41 silly audit   'aggregate-error': [ '3.1.0' ],
+41 silly audit   'ansi-regex': [ '5.0.1' ],
+41 silly audit   aproba: [ '2.1.0' ],
+41 silly audit   'are-we-there-yet': [ '3.0.1' ],
+41 silly audit   'balanced-match': [ '1.0.2' ],
+41 silly audit   'base64-js': [ '1.5.1' ],
+41 silly audit   bindings: [ '1.5.0' ],
+41 silly audit   bl: [ '4.1.0' ],
+41 silly audit   'brace-expansion': [ '1.1.12' ],
+41 silly audit   buffer: [ '5.7.1' ],
+41 silly audit   cacache: [ '15.3.0' ],
+41 silly audit   chownr: [ '2.0.0', '1.1.4' ],
+41 silly audit   'clean-stack': [ '2.2.0' ],
+41 silly audit   'color-support': [ '1.1.3' ],
+41 silly audit   'concat-map': [ '0.0.1' ],
+41 silly audit   'console-control-strings': [ '1.1.0' ],
+41 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+41 silly audit   debug: [ '4.4.1' ],
+41 silly audit   'decompress-response': [ '6.0.0' ],
+41 silly audit   'deep-extend': [ '0.6.0' ],
+41 silly audit   delegates: [ '1.0.0' ],
+41 silly audit   'detect-libc': [ '2.0.4' ],
+41 silly audit   'discord-api-types': [ '0.38.18' ],
+41 silly audit   'discord.js': [ '14.21.0' ],
+41 silly audit   dotenv: [ '16.6.1' ],
+41 silly audit   dottie: [ '2.0.6' ],
+41 silly audit   'emoji-regex': [ '8.0.0' ],
+41 silly audit   encoding: [ '0.1.13' ],
+41 silly audit   'end-of-stream': [ '1.4.5' ],
+41 silly audit   'env-paths': [ '2.2.1' ],
+41 silly audit   'err-code': [ '2.0.3' ],
+41 silly audit   'expand-template': [ '2.0.3' ],
+41 silly audit   'fast-deep-equal': [ '3.1.3' ],
+41 silly audit   'fetch-blob': [ '3.2.0' ],
+41 silly audit   'file-uri-to-path': [ '1.0.0' ],
+41 silly audit   'formdata-polyfill': [ '4.0.10' ],
+41 silly audit   'fs-constants': [ '1.0.0' ],
+41 silly audit   'fs-minipass': [ '2.1.0' ],
+41 silly audit   'fs.realpath': [ '1.0.0' ],
+41 silly audit   gauge: [ '4.0.4' ],
+41 silly audit   'github-from-package': [ '0.0.0' ],
+41 silly audit   glob: [ '7.2.3' ],
+41 silly audit   'graceful-fs': [ '4.2.11' ],
+41 silly audit   'has-unicode': [ '2.0.1' ],
+41 silly audit   'http-cache-semantics': [ '4.2.0' ],
+41 silly audit   'http-proxy-agent': [ '4.0.1' ],
+41 silly audit   'https-proxy-agent': [ '5.0.1' ],
+41 silly audit   'humanize-ms': [ '1.2.1' ],
+41 silly audit   'iconv-lite': [ '0.6.3' ],
+41 silly audit   ieee754: [ '1.2.1' ],
+41 silly audit   imurmurhash: [ '0.1.4' ],
+41 silly audit   'indent-string': [ '4.0.0' ],
+41 silly audit   'infer-owner': [ '1.0.4' ],
+41 silly audit   inflection: [ '1.13.4' ],
+41 silly audit   inflight: [ '1.0.6' ],
+41 silly audit   inherits: [ '2.0.4' ],
+41 silly audit   ini: [ '1.3.8' ],
+41 silly audit   'ip-address': [ '9.0.5' ],
+41 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+41 silly audit   'is-lambda': [ '1.0.1' ],
+41 silly audit   isexe: [ '2.0.0' ],
+41 silly audit   jsbn: [ '1.1.0' ],
+41 silly audit   lodash: [ '4.17.21' ],
+41 silly audit   'lodash.snakecase': [ '4.1.1' ],
+41 silly audit   'lru-cache': [ '6.0.0' ],
+41 silly audit   'magic-bytes.js': [ '1.12.1' ],
+41 silly audit   'make-fetch-happen': [ '9.1.0' ],
+41 silly audit   'mimic-response': [ '3.1.0' ],
+41 silly audit   minimatch: [ '3.1.2' ],
+41 silly audit   minimist: [ '1.2.8' ],
+41 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+41 silly audit   'minipass-collect': [ '1.0.2' ],
+41 silly audit   'minipass-fetch': [ '1.4.1' ],
+41 silly audit   'minipass-flush': [ '1.0.5' ],
+41 silly audit   'minipass-pipeline': [ '1.2.4' ],
+41 silly audit   'minipass-sized': [ '1.0.3' ],
+41 silly audit   minizlib: [ '2.1.2' ],
+41 silly audit   mkdirp: [ '1.0.4' ],
+41 silly audit   'mkdirp-classic': [ '0.5.3' ],
+41 silly audit   moment: [ '2.30.1' ],
+41 silly audit   'moment-timezone': [ '0.5.48' ],
+41 silly audit   ms: [ '2.1.3' ],
+41 silly audit   'napi-build-utils': [ '2.0.0' ],
+41 silly audit   negotiator: [ '0.6.4' ],
+41 silly audit   'node-abi': [ '3.75.0' ],
+41 silly audit   'node-addon-api': [ '7.1.1' ],
+41 silly audit   'node-domexception': [ '1.0.0' ],
+41 silly audit   'node-gyp': [ '8.4.1' ],
+41 silly audit   nopt: [ '5.0.0' ],
+41 silly audit   npmlog: [ '6.0.2' ],
+41 silly audit   once: [ '1.4.0' ],
+41 silly audit   'p-map': [ '4.0.0' ],
+41 silly audit   'path-is-absolute': [ '1.0.1' ],
+41 silly audit   'pg-connection-string': [ '2.9.1' ],
+41 silly audit   'prebuild-install': [ '7.1.3' ],
+41 silly audit   'promise-inflight': [ '1.0.1' ],
+41 silly audit   'promise-retry': [ '2.0.1' ],
+41 silly audit   pump: [ '3.0.3' ],
+41 silly audit   rc: [ '1.2.8' ],
+41 silly audit   'readable-stream': [ '3.6.2' ],
+41 silly audit   retry: [ '0.12.0' ],
+41 silly audit   'retry-as-promised': [ '7.1.1' ],
+41 silly audit   rimraf: [ '3.0.2' ],
+41 silly audit   'safe-buffer': [ '5.2.1' ],
+41 silly audit   'safer-buffer': [ '2.1.2' ],
+41 silly audit   semver: [ '7.7.2' ],
+41 silly audit   sequelize: [ '6.37.7' ],
+41 silly audit   'sequelize-pool': [ '7.1.0' ],
+41 silly audit   'set-blocking': [ '2.0.0' ],
+41 silly audit   'signal-exit': [ '3.0.7' ],
+41 silly audit   'simple-concat': [ '1.0.1' ],
+41 silly audit   'simple-get': [ '4.0.1' ],
+41 silly audit   'smart-buffer': [ '4.2.0' ],
+41 silly audit   socks: [ '2.8.6' ],
+41 silly audit   'socks-proxy-agent': [ '6.2.1' ],
+41 silly audit   'sprintf-js': [ '1.1.3' ],
+41 silly audit   sqlite3: [ '5.1.7' ],
+41 silly audit   ssri: [ '8.0.1' ],
+41 silly audit   string_decoder: [ '1.3.0' ],
+41 silly audit   'string-width': [ '4.2.3' ],
+41 silly audit   'strip-ansi': [ '6.0.1' ],
+41 silly audit   'strip-json-comments': [ '2.0.1' ],
+41 silly audit   tar: [ '6.2.1' ],
+41 silly audit   'tar-fs': [ '2.1.3' ],
+41 silly audit   'tar-stream': [ '2.2.0' ],
+41 silly audit   'toposort-class': [ '1.0.1' ],
+41 silly audit   'ts-mixer': [ '6.0.4' ],
+41 silly audit   tslib: [ '2.8.1' ],
+41 silly audit   'tunnel-agent': [ '0.6.0' ],
+41 silly audit   undici: [ '6.21.3' ],
+41 silly audit   'undici-types': [ '7.10.0' ],
+41 silly audit   'unique-filename': [ '1.1.1' ],
+41 silly audit   'unique-slug': [ '2.0.2' ],
+41 silly audit   'util-deprecate': [ '1.0.2' ],
+41 silly audit   uuid: [ '8.3.2' ],
+41 silly audit   validator: [ '13.15.15' ],
+41 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+41 silly audit   which: [ '2.0.2' ],
+41 silly audit   'wide-align': [ '1.1.5' ],
+41 silly audit   wkx: [ '0.5.0' ],
+41 silly audit   wrappy: [ '1.0.2' ],
+41 silly audit   ws: [ '8.18.3' ],
+41 silly audit   yallist: [ '4.0.0' ],
+41 silly audit   'node-fetch': [ '3.3.2' ],
+41 silly audit   openai: [ '5.23.2' ]
+41 silly audit }
+42 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 377ms
+43 silly audit report {}
+44 verbose cwd /home/container
+45 verbose os Linux 6.8.0-63-generic
+46 verbose node v22.20.0
+47 verbose npm  v11.6.1
+48 verbose exit 0
+49 info ok
