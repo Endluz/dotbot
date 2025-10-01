@@ -1,10 +1,27 @@
+# Node modules
 node_modules/
+
+# Environment variables
 .env
+
+# Local database files
 database.sqlite
 *.sqlite*
 *.db
+
+# Build/dist folders
 dist/
+
+# Test coverage
 coverage/
+
+# NPM/Yarn debug logs
 npm-debug.log*
 yarn-error.log
+
+# macOS metadata
 .DS_Store
+
+# Optional: ignore config files with secrets
+src/config.js
+src/utils/twitchAuth.js
